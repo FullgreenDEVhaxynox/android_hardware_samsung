@@ -177,6 +177,10 @@ int main() {
         strncasecmp(mac_addr_half, "88:30:8a", 9) == 0 ||
         strncasecmp(mac_addr_half, "f0:27:65", 9) == 0 ||
         strncasecmp(mac_addr_half, "98:F1:70", 9) == 0 ||
+        strncasecmp(mac_addr_half, "B4:62:93", 9) == 0 ||
+        strncasecmp(mac_addr_half, "5C:F8:A1", 9) == 0 ||
+        strncasecmp(mac_addr_half, "08:D4:2B", 9) == 0 ||
+        strncasecmp(mac_addr_half, "60:21:C0", 9) == 0 ||
         strncasecmp(mac_addr_half, "fc:c2:de", 9) == 0) {
         type = MURATA;
     }
